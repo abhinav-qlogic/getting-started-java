@@ -22,8 +22,9 @@
 <!doctype html>
 <html>
 <head>
+    <meta http-equiv="refresh" content="10">
+  </head>
   <title>Pub/Sub Java on Google App Engine Standard Environment</title>
-</head>
 <body>
 <%List<GoogleIdToken.Payload> messages = (List)request.getAttribute("messages");%>
 <%List<String> tokens = (List)request.getAttribute("tokens");%>
